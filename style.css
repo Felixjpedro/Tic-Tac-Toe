@@ -1,0 +1,110 @@
+body {
+  font-family: "Ubuntu";
+  background-color: #212529;
+}
+
+.escrita {
+  color: white;
+}
+
+#gameBoard {
+  background-color: #808080;
+  display: grid;
+  grid-template-columns: 6rem 6rem 6rem;
+  grid-template-rows: 6rem 6rem 6rem;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  max-width: 19rem;
+  position: absolute;
+  left: 40%;
+  top: 35%;
+}
+
+#gameBoard span {
+  background-color: #212529;
+  display: grid;
+  place-content: center;
+  font-size: 5rem;
+}
+
+#gameBoard span.win {
+  color: #4dff91;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+#start {
+  background-color: #212529;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  transition: 0.15s;
+  border-color: #4dff91;
+  cursor: pointer;
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  width: 19rem;
+  height: 3.5rem;
+}
+
+#player1 {
+  background-color: #212529;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  transition: 0.15s;
+  border-color: #4dff91;
+  position: absolute;
+  top: 38.5%;
+  left: 8%;
+}
+
+#player2 {
+  background-color: #212529;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  transition: 0.15s;
+  border-color: #4dff91;
+  position: absolute;
+  top: 73.5%;
+  left: 8%;
+}
+
+::placeholder {
+  color: white;
+}
+
+#x {
+  font-size: 25px;
+  position: absolute;
+  top: 39%;
+  left: 25%;
+}
+
+#o {
+  font-size: 25px;
+  position: absolute;
+  top: 74%;
+  left: 25%;
+}
+
+input {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  position: absolute;
+  left: 39.5%;
+  top: 21%;
+}
+span {
+  color: #ddd;
+}
